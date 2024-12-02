@@ -6,7 +6,6 @@
     <velocity
       @enter="enter"
       @leave="leave"
-      @after-leave="clean"
     >
       <div
         v-for="item in active"
